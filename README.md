@@ -1,15 +1,26 @@
 # Lista Register
 
-[Link do Projeto](https://ferreirointz.github.io/List_Register)
+🔗 [Acesse o Projeto](https://ferreirointz.github.io/List_Register)
 
+## 📸 Imagens do Projeto
 
-![Foto da pagina de cadastros com o tema Escuro](fotos/registerDarck.png)
-![Foto da pagina de cadastros com o tema Claro](fotos/registerLight.png)
-![Foto da pagina de Listaem dos cadastros](fotos/list.png)
-[Imagens ilustrativas do Projeto]
+![Página de cadastros com o tema escuro](fotos/registerDarck.png)  
+![Página de cadastros com o tema claro](fotos/registerLight.png)  
+![Página de listagem dos cadastros](fotos/list.png)
+
 ---
 
+## 📋 Descrição
 
-Este e um projeto *antigo*. Havia feito ele para treinar minhas habilidades com o React. Ele se enquadra mais como um FrameWork simples, pois nao tem muita aplicacao real, sendo necessario conectar ele a um Banco.
+Este é um projeto antigo que desenvolvi com o objetivo de praticar minhas habilidades em **React**.
 
-Uma *particularidade* dele e que ele tem uma *API* do *_ibge_*. Assim, quando voce seleciona um estado na pagina de cadastro, ele pega as cidades do estado selecionado.
+Ele funciona como um sistema simples de cadastro e listagem de registros. Embora ainda não esteja conectado a um banco de dados, a estrutura permite visualizar como seria o funcionamento básico de um CRUD (Create, Read, Update, Delete).
+
+> ⚠️ Atualmente, o projeto não possui persistência de dados real, sendo necessário conectá-lo a um banco de dados para aplicações práticas.
+
+## 🌐 Funcionalidade extra
+
+Uma particularidade interessante do projeto é a integração com a **API do IBGE**.  
+Ao selecionar um estado na página de cadastro, o sistema automaticamente carrega as cidades correspondentes, fornecidas pela API.
+
+---
