@@ -22,8 +22,6 @@ function register_body({ page, setRegisters, registers, setPage }) {
   // Verifica se os dados náo esta vazios para serem enviados.
   useEffect(() => {
     const x = fields;
-    console.log(fields);
-
     if (
       x.nome != "" &&
       x.e_mail != "" &&
@@ -38,10 +36,6 @@ function register_body({ page, setRegisters, registers, setPage }) {
       console.log("Náo pode Salvar!");
       setSave(false);
     }
-
-    console.log("========================")
-    console.log(registers)
-    console.log("========================")
   }, [fields]);
 
   // Busca os estados
@@ -50,7 +44,6 @@ function register_body({ page, setRegisters, registers, setPage }) {
       .then((x) => x.json())
       .then((x) => setEtados(x));
 
-    console.log(page);
   }, []);
 
   // Busca os municipios apos o estado ser selecionado.

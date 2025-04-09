@@ -47,17 +47,27 @@ function App() {
 
   const [page, setPage] = useState(false);
 
+  useEffect(() =>{
+    if(!page){
+      document.title = "Registros"
+    }else{
+      document.title = "Cadastrar"
+    }
+    console.log(page)
+  }, [page])
+
   return (
     <div id="body" style={{ background: theme ? "#303336" : "#D9D9D9" }}>
       <input type="checkbox" id="theme" />
       <Header theme={theme} chTheme={setTheme} />
+
 
       <Register
         page={page}
         setRegisters={setRegisters}
         setPage={setPage}
         registers={registers}
-      />
+        />
 
         <List_registers
           registers={registers}
